@@ -1,0 +1,16 @@
+#sidebar_card{
+    border: None;
+    margin-top: 50%;
+}
+
+#sidebar_card a:link{
+    color:azure;
+}
+
+#sidebar_card a:hover{
+    color:cadetblue;
+}
+
+#sidebar_card .card-header .card-text{
+    color:cadetblue;
+} 
