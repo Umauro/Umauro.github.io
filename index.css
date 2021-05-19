@@ -3,14 +3,59 @@
     margin-top: 50%;
 }
 
+
 #sidebar_card a:link{
     color:azure;
 }
 
 #sidebar_card a:hover{
-    color:cadetblue;
+    color: #23a99d;
 }
 
 #sidebar_card .card-header .card-text{
-    color:cadetblue;
+    color: #23a99d;
 } 
+
+#sidebar_list li{
+    border:none
+}
+
+#sidebar_list li a{
+    text-decoration: none;
+}
+
+#sidebar_list a:link{
+    color:azure;
+}
+
+#sidebar_list a:hover{
+    color: #23a99d;
+}
+
+
+#exp_card{
+    border:none;
+    background-color: none;
+}
+
+#exp_card .card-header{
+    background-color: inherit;
+    border: none;
+}
+
+#empresa_exp{
+    color: #23a99d;
+}
+
+#exp_card li{
+    border:none;
+}
+
+#sep_bar{
+    border-top: 4px solid #23a99d
+}
+
+#sep_bar_items{
+    border-top: 1px dashed #23a99d
+}
+
