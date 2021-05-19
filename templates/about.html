@@ -1,1 +1,40 @@
-<h1>About</h1>
+<h2 class="pt-3">Hola!</h2>
+<hr id="sep_bar">
+
+<div class="row pt-3">
+    <div class="col">
+        <p class="fs-5 text-justify ">
+            Me llamo Felipe, aunque mis amigos de la universidad me dicen Mauro por una broma en el primer año que se salió de control.
+            Soy Ingeniero Civil Informático de la UTFSM, con gran interés en el aprendizaje automático, el cual nació cuando me inscribí en el ramo de Machine Learning del Departamento de Informática. 
+    
+            Dentro del aprendizaje automático, lo que más me llama la atención son los métodos generativos basados en GANS, siendo CycleGAN la que más me gusta, puede que sea algo antigua, pero me encantan los resultados y la lógica que hay detrás. 
+        </p>
+        <p class="fs-5 pt-4">
+            Dentro de mis hobbies se encuentra el Trekking, donde uno de mis senderos favoritos es "La O" en las Torres del Paine (la vista llegando al campamento Dickson es impresionante), como también el Anime/Manga. También me gusta mucho jugar Tetris, principalmente la versión de NES (PB 503.120), donde tengo la esperanza de mejorar lo suficiente como para competir en la CTWC en algún momento.
+        </p>
+
+        <p class="fs-5 pt-4">
+            Actualmente busco iniciarme laboralmente como Data Scientist, para así poder aplicar lo aprendido durante mi formación académica para la resolución problemas que impacten en la industria donde me desenvuelva.
+
+        </p>
+
+        <div class="card" id="content_card">
+            <div class="card-header">
+                <h5 class="upper_text">Herramientas</h5>
+            </div>
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col" >
+                        <span ng-repeat="item in herramientas" class="badge ms-1" id='badge'>{{ item }}</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-3 d-none d-lg-block">
+        <img class='img-thumbnail' src='static/mauro.jpg'></img>
+    </div>
+    
+</div>
+
