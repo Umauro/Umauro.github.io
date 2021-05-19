@@ -86,3 +86,11 @@
 .navbar-dark .navbar-nav .nav-link:focus{
     color:#23a99d;
 }
+
+svg{
+    color:inherit;
+}
+
+#content_card a text{
+    color:#23a99d;
+}
