@@ -1,13 +1,12 @@
-<h1>Curriculum</h1>
 
 <div class="row pt-3">
     <h2>Educación</h2>
     <hr id="sep_bar">
     <div class="row" ng-repeat="edu_item in educacion">
-        <div class="card p-3" id="exp_card">
+        <div class="card p-3" id="content_card">
             <div class="card-header">
-                <h5 class="card-text" id="cargo_exp">{{edu_item.grado}}</h5>
-                <h6 class="card-text" id="empresa_exp">{{edu_item.institucion}}</h6>
+                <h5 class="card-text" id="upper_text">{{edu_item.grado}}</h5>
+                <h6 class="card-text" id="lower_text">{{edu_item.institucion}}</h6>
                 {{edu_item.fechas}}
             </div>
             <hr id="sep_bar_items">
@@ -17,10 +16,10 @@
     <h2>Experiencia</h2>
     <hr id="sep_bar">
     <div class="row" ng-repeat="exp_item in experiencias">
-        <div class="card p-3" id="exp_card">
+        <div class="card p-3" id="content_card">
             <div class="card-header">
-                <h5 class="card-text" id="cargo_exp">{{exp_item.cargo}}</h5>
-                <h6 class="card-text" id="empresa_exp">{{exp_item.empresa}}</h6>
+                <h5 class="card-text" id="upper_text">{{exp_item.cargo}}</h5>
+                <h6 class="card-text" id="lower_text">{{exp_item.empresa}}</h6>
                 {{exp_item.fechas}}
             </div>
             <div class="card-body">

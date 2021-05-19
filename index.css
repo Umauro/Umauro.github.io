@@ -33,21 +33,37 @@
 }
 
 
-#exp_card{
+#content_card{
     border:none;
     background-color: none;
 }
 
-#exp_card .card-header{
+#content_card .card-header{
     background-color: inherit;
     border: none;
 }
 
-#empresa_exp{
+#content_card .card-footer{
+    background-color:inherit;
+}
+
+#content_card a{
+    text-decoration: none;
+}
+
+#content_card a:link{
     color: #23a99d;
 }
 
-#exp_card li{
+#content_card a:hover{
+    color: #093335;
+}
+
+#lower_text{
+    color: #23a99d;
+}
+
+#content_card li{
     border:none;
 }
 
